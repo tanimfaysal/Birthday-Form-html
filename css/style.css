@@ -1,0 +1,88 @@
+.birth_day_page_wrapper{
+float: :left;
+width: 100%;
+    background-image: linear-gradient(#3B5F77, #E3BCD5);
+}
+.birth_day_inner{
+margin: 0 auto;
+width: 550px;
+
+}
+select.minimal {
+  background-image:
+    linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+}
+
+select.minimal:focus {
+  background-image:
+    linear-gradient(45deg, green 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, green 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 15px) 1em,
+    calc(100% - 20px) 1em,
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+  border-color: green;
+  outline: 0;
+}
+#spaceS{
+    padding: 20px;
+}
+#spaceS p{
+    text-align: center;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.875rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 1.975rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    box-shadow: 0px 2px 0px 0px #676767;
+}
+.birth_day_deading{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.birth_day_deading h2 {
+    color: #000;
+    font-size: 32px;
+}
+#submit {
+    border: 2px solid #F7A52A;
+    color: #F7A52A;
+}
+@media screen and (max-width: 800px){
+    .birth_day_inner{
+width: 100%;
+
+}
+}
